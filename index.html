@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+ <div class="flex"> 
+  
+     <ul class="collapsible visible-lg visile">
+        <li><button class="closebtn">X</button></li>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Home">New</a></li>
+        <li><a href="#Home">Popular</a></li>
+        <li><a href="#Home">Trending</a></li>
+        <li><a href="#Categories">Categories</a></li>
+    </ul>
+   
+</div> 
+
+    <header class = "navcontainer">
+        
+        
+    
+                <a  class="logo" href=""><img src="/images/logo.svg"></a>
+                <div class="nav visible-xs visible-md " >
+                    <a class="Home" href="#Home">Home</a>
+                    <a class="New" href="#New">New</a>
+                    <a class="popular" href="#Popular">Popular</a>
+                    <a class="trending" href="#Trending">Trending</a>
+                    <a class="Categories" href="#Categories">Categories</a>       
+                </div>
+                <button class = "menu-btn visible-lg">
+                    <ul >
+                        <li class="bar"></li>   
+                        <li class="bar"></li>
+                        <li class="bar"></li>
+                    </ul>
+                </button>
+        
+                
+           
+    </header>
+    
+        <section>
+            <div class="container">
+                <div class="mainPic"></div>
+                <div class="aside">
+                    <h2>New</h2>
+                    <a href=""><h3>Hydrogen VS Electric Cars </h3></a>
+                    <p>Will hydrogen-fueled cars ever catch up with Evs?</p>
+                    <a href=""><h3>The Downsides of AI Artistry</h3></a>
+                    <p>What are the possible adverse effects of on-demand AI image generation?</p>
+                    <a href=""><h3>Is VC Funding Drying Up?</h3></a>
+                    <p> Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                </div>
+           
+                <div class="h1">
+                <strong><h1> The Bright <br> Future of <br> Web 3.0?</h1></strong>
+                </div>
+                <div class="h22">
+                    <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise? </p>
+                    <button class="read-more">READ MORE</button>
+                </div> 
+                    
+                    <div class="flexy">
+                    
+                            <div class="pic1"></div>
+                                <div class=""> 
+                                   <p> <span  class="num">01</span><br>
+                                 <a class="lowhead"><strong >Reviving Retro PCs</strong></a><br>what happens when old pcs are given modern updates? </p>
+                                 </div>
+                    
+                    </div>
+
+                        <div class="flexy">
+                        
+                                <div class="pic2"></div>
+                                <div class="">
+                                    <p><span  class="num">02</span><br>
+                                <a class="lowhead"><strong>Top 10 Laptops of 2022</strong></a><br> Our best picks for various needs and budgets. </p>
+                                </div>
+                                 
+                        </div>
+
+                        <div class="flexy">
+                    
+                                <div class="pic3"></div>
+                                <div class="">
+                                    <p><span class="num">03</span><br>
+                                <a class="lowhead"><strong >The Growth of Gaming</strong> </a><br> the pandemic has sparked fresh opportunities. </p>
+                    
+                        </div>
+                        </div>
+            </div>
+        </section>           
+        </div>
+
+      
+  
+ <script>
+    const collapsibleMenu = document.querySelector('.collapsible');
+        const closeBtn = document.querySelector('.closebtn');
+        const menuBtn = document.querySelector('.menu-btn');
+
+        
+        menuBtn.addEventListener('click', function() {
+            collapsibleMenu.style.display = 'block'; 
+        });
+
+       
+        closeBtn.addEventListener('click', function() {
+            collapsibleMenu.style.display = 'none'; 
+        });
+ </script>
+</body>
+</html>
